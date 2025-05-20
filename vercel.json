@@ -4,6 +4,7 @@
     { "src": "/api/auth/login", "dest": "/api/auth/login" },
     { "src": "/api/auth/logout", "dest": "/api/auth/logout" },
     { "src": "/api/auth/update-profile", "dest": "/api/auth/update-profile" },
-    { "src": "/api/auth/check", "dest": "/api/auth/check" }
+    { "src": "/api/auth/check", "dest": "/api/auth/check" },
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
