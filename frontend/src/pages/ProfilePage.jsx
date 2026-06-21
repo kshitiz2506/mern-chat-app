@@ -37,7 +37,6 @@ const ProfilePage = () => {
 
   return (
     <div className="h-screen pt-20">
-      {/* Image Preview Modal */}
       {showImagePreview && (
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
           <div className="relative max-w-4xl max-h-[90vh] w-full">
@@ -63,7 +62,7 @@ const ProfilePage = () => {
             <p className="mt-2">Your profile information</p>
           </div>
 
-          {/* avatar upload section */}
+         
           <div className="flex flex-col items-center gap-4">
             <div className="relative">
               <img
